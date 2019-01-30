@@ -1,0 +1,18 @@
+@@ -1383,11 +1383,16 @@
+   if (!DC)
+     return true;
+
++  int childSize = 0;
++
+   for (auto *Child : DC->decls()) {
++    childSize++;
+     if (!canIgnoreChildDeclWhileTraversingDeclContext(Child))
+-      TRY_TO(TraverseDecl(Child));
++        TRY_TO(TraverseDecl(Child));
+   }
+
++  std::cout << DC->getDeclKindName() << ": " << childSize << " child declarations" << "\n";
++
+   return true;
+ }
+

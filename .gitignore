@@ -1,0 +1,6 @@
+clang+llvm-4.0.1-x86_64-apple-darwin.tar.xz
+clang+llvm-7.0.0-x86_64-apple-darwin.tar.xz
+7.0.0/clang+llvm-7.0.0-x86_64-apple-darwin
+4.0.1/clang+llvm-4.0.1-x86_64-apple-macosx10.9.0
+4.0.1/cmake-build
+7.0.0/cmake-build
