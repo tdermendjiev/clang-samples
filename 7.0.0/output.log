@@ -1,0 +1,53 @@
+Clang Arguments:
+"-v", "-x", "objective-c", "-fno-objc-arc", "-fmodule-maps", "-ferror-limit=0", "-Wno-unknown-pragmas", "-Wno-ignored-attributes", "-Wno-nullability-completeness", "-Wno-expansion-to-defined",
+clang version 7.0.0 (tags/RELEASE_700/final)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir:
+clang Invocation:
+ "objc-metadata-generator" "-cc1" "-triple" "x86_64-apple-macosx10.13.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "penryn" "-dwarf-column-info" "-debugger-tuning=lldb" "-target-linker-version" "409.12" "-v" "-resource-dir" "lib/clang/7.0.0" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-fdebug-compilation-dir" "/Users/dermendz/dev/ios-runtime/clang-samples/7.0.0/cmake-build/src/Debug" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fencode-extended-block-signature" "-fimplicit-module-maps" "-fregister-global-dtors-with-atexit" "-fobjc-runtime=macosx-10.13.0" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+clang -cc1 version 7.0.0 based upon LLVM 7.0.0 default target x86_64-apple-darwin17.7.0
+ignoring nonexistent directory "lib/clang/7.0.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+In file included from umbrella.h:1:
+In file included from /System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:17:10: fatal error: 'stdarg.h' file not found
+#include <stdarg.h>
+         ^~~~~~~~~~
+Record: 2 child declarations
+Record: 0 child declarations
+Record: 4 child declarations
+Record: 2 child declarations
+Record: 2 child declarations
+Record: 2 child declarations
+Record: 2 child declarations
+Record: 2 child declarations
+Record: 2 child declarations
+Record: 2 child declarations
+Record: 2 child declarations
+Record: 0 child declarations
+Record: 4 child declarations
+Record: 0 child declarations
+Record: 0 child declarations
+Record: 0 child declarations
+Record: 0 child declarations
+Record: 0 child declarations
+Record: 0 child declarations
+Record: 0 child declarations
+Record: 0 child declarations
+Record: 0 child declarations
+Record: 1 child declarations
+Record: 4 child declarations
+Record: 2 child declarations
+Record: 2 child declarations
+Record: 15 child declarations
+TranslationUnit: 486 child declarations
+1 error generated.
+Program ended with exit code: 0
